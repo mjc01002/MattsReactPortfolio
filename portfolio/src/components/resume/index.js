@@ -11,7 +11,7 @@ function Resume() {
           <h2 className="top-title">Mathew Calkins</h2>
           <ul>
             <li>
-              Core competencies in enterpirse content management, full-stack web
+              Proficent in enterpirse content management, full-stack web
               development, data architecture, and managing integrations.
             </li>
           </ul>
@@ -23,10 +23,12 @@ function Resume() {
                 alt="inkedIn"
               />
             </a>
+          
+            
           </p>
 
           <a
-            href="https://github.com/fondofhats/react-portfolio/raw/main/docs/MichaelGiddingsResume.docx"
+            href="https://github.com/mjc01002/MattsReactPortfolio/raw/main/portfolio/src/assets/resume.pdf"
             class="link"
           >
             Download Resume
@@ -39,7 +41,6 @@ function Resume() {
           <h2 className="top-title">Proficiencies</h2>
           <ul>
             <li>
-            SDL Tridion, Adobe Experience Manager (6.5, As a cloud Service), C#.NET, ASP.NET, JAVA,<br />
             HTML, CSS (Bootstrap, HandleBars), JavaScript, jQuery, React.js, IndexedDB,<br />
             Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs, Templating.
             </li>
