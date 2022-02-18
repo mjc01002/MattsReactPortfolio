@@ -1,28 +1,32 @@
 import React, { Component } from "react";
-import { Route, Redirect, HashRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Nav from "../../components/Nav";
-import aboutMe from "../../components/aboutMe";
-import portfolio from "../../components/portfolio";
-import contact from '../../components/contact';
-import resume from '../../components/resume';
+import AboutMe from "../../components/aboutMe";
+import Portfolio from "../../components/portfolio";
+import Contact from '../../components/contact';
+import Resume from '../../components/resume';
 
 
 class Header extends Component {
   render() {
     return (
-      <HashRouter>
+        <BrowserRouter>
         <header>
           <Nav />
         </header>
-
+        
         <div className="content">
-          {/* <Route exact path="/" render={() => <Redirect to="/aboutMe" />} /> */}
-          <Route path="/aboutMe" component={aboutMe} />
-          <Route path="/portfolio" component={portfolio} />
-          <Route path="/contact" component={contact}/>
-          <Route path="/resume" component={resume}/>
+            <Routes>
+          <Route exact path="/" render={() => <Navigate to="/aboutMe" />}/>
+          <Route path="/aboutMe" element={<AboutMe />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />}/>
+          <Route path="/resume" element={<Resume />}/>
+            </Routes>
         </div>
-      </HashRouter>
+
+        </BrowserRouter>
+      
     );
   }
 }

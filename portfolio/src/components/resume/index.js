@@ -8,7 +8,7 @@ function Resume() {
 
       <div>
         <div class="mt-5">
-          <h2 className="top-title">Michael Giddings</h2>
+          <h2 className="top-title">Mathew Calkins</h2>
           <ul>
             <li>
               Core competencies in enterpirse content management, full-stack web

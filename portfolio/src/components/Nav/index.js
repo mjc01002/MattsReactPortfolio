@@ -6,12 +6,12 @@ function Nav(props) {
   return (
     <div>
       <Navbar expand="lg" bg="dark" sticky="top">
-        <NavLink className="nav-link" to="/">
+        <NavLink className="nav-link" to="/aboutMe">
           <div class="text-light">
-            <h4 class="nav-title-font">Michael Giddings</h4>
+            <h4 class="nav-title-font">Mathew Calkins</h4>
           </div>
         </NavLink>
-        <ul class="navbar-nav ml-auto navitem-indent">
+        <ul class="navbar-nav nav justify-content-end ml-auto navitem-indent">
           <li class="nav-item">
             <NavLink to="/aboutMe">
               <div class="nav-font text-light">About Me</div>
