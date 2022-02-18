@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Route, Redirect, HashRouter } from "react-router-dom";
-import Navigation from "../../components/Navigation";
+import Nav from "../../components/Nav";
 import aboutMe from "../../components/aboutMe";
-import Portfolio from "../../components/Portfolio";
-import Contact from '../../components/Contact';
-import Resume from '../../components/Resume';
+import portfolio from "../../components/portfolio";
+import contact from '../../components/contact';
+import resume from '../../components/resume';
 
 
 class Header extends Component {
@@ -12,15 +12,15 @@ class Header extends Component {
     return (
       <HashRouter>
         <header>
-          <Navigation />
+          <Nav />
         </header>
 
         <div className="content">
-          <Route exact path="/" render={() => <Redirect to="/about" />} />
+          {/* <Route exact path="/" render={() => <Redirect to="/aboutMe" />} /> */}
           <Route path="/aboutMe" component={aboutMe} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact}/>
-          <Route path="/resume" component={Resume}/>
+          <Route path="/portfolio" component={portfolio} />
+          <Route path="/contact" component={contact}/>
+          <Route path="/resume" component={resume}/>
         </div>
       </HashRouter>
     );
