@@ -1,16 +1,16 @@
 import React from 'react';
-import AboutMe from './components/aboutMe';
-import Nav from './components/Nav';
+import Header from './components/header';
+import Footer from './components/footer';
+//import AboutMe from './components/aboutMe';
+//import Nav from './components/Nav';
 //import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Nav></Nav>
-      <main>
-        <AboutMe></AboutMe>
-      </main>
+      <Header/>
+      <Footer/>
     </div>
   );
 }

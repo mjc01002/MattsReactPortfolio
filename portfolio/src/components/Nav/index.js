@@ -1,33 +1,40 @@
-import React from 'react';
+import React from "react";
+import { Navbar } from "react-bootstrap";
+import {NavLink} from "react-router-dom";
 
-function Nav() {
-
+function Nav(props) {
   return (
-    <header>
-  <h2>
-    <a href="/">
-      {/* <span role="img" aria-label="camera"> 📸</span> Oh Snap! */}
-    </a>
-  </h2>
-  <nav>
-    <ul className="flex-row">
-      <li className="mx-2">
-        <a href="#about">
-          About me
-        </a>
-      </li>
-      <li>
-        <span>Portfolio</span>
-      </li>
-      <li>
-        <span>Resume</span>
-      </li>
-      <li>
-        <span>Contact Me</span>
-      </li>
-    </ul>
-  </nav>
-</header>
+    <div>
+      <Navbar expand="lg" bg="dark" sticky="top">
+        <NavLink className="nav-link" to="/">
+          <div class="text-light">
+            <h4 class="nav-title-font">Michael Giddings</h4>
+          </div>
+        </NavLink>
+        <ul class="navbar-nav ml-auto navitem-indent">
+          <li class="nav-item">
+            <NavLink to="/aboutMe">
+              <div class="nav-font text-light">About Me</div>
+            </NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink to="/portfolio">
+              <div class="nav-font text-light">Portfolio</div>
+            </NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink to="/contact">
+              <div class="nav-font text-light">Contact</div>
+            </NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink to="/resume">
+              <div class="nav-font text-light">Resume</div>
+            </NavLink>
+          </li>
+        </ul>
+      </Navbar>
+    </div>
   );
 }
 
