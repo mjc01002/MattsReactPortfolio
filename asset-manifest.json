@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aboutMe/static/css/main.8c997f25.css",
-    "main.js": "/aboutMe/static/js/main.482edae2.js",
-    "static/js/787.1ed0c42c.chunk.js": "/aboutMe/static/js/787.1ed0c42c.chunk.js",
-    "static/media/headshot.heic": "/aboutMe/static/media/headshot.ae1f8da07450046507eb.heic",
-    "index.html": "/aboutMe/index.html",
-    "main.8c997f25.css.map": "/aboutMe/static/css/main.8c997f25.css.map",
-    "main.482edae2.js.map": "/aboutMe/static/js/main.482edae2.js.map",
-    "787.1ed0c42c.chunk.js.map": "/aboutMe/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/MattsReactPortfolio/aboutMe/static/css/main.8c997f25.css",
+    "main.js": "/MattsReactPortfolio/aboutMe/static/js/main.c7cf9963.js",
+    "static/js/787.1ed0c42c.chunk.js": "/MattsReactPortfolio/aboutMe/static/js/787.1ed0c42c.chunk.js",
+    "static/media/headshot.heic": "/MattsReactPortfolio/aboutMe/static/media/headshot.ae1f8da07450046507eb.heic",
+    "index.html": "/MattsReactPortfolio/aboutMe/index.html",
+    "main.8c997f25.css.map": "/MattsReactPortfolio/aboutMe/static/css/main.8c997f25.css.map",
+    "main.c7cf9963.js.map": "/MattsReactPortfolio/aboutMe/static/js/main.c7cf9963.js.map",
+    "787.1ed0c42c.chunk.js.map": "/MattsReactPortfolio/aboutMe/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c997f25.css",
-    "static/js/main.482edae2.js"
+    "static/js/main.c7cf9963.js"
   ]
 }
