@@ -1,5 +1,4 @@
 import React from 'react';
-//import coverImage from '../../assets/cover/portfolioImage.jpg';
 import headShot from '../../assets/Photo/headshot.heic';
 
 function AboutMe() {
