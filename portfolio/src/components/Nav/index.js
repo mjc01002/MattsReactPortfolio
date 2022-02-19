@@ -8,7 +8,7 @@ function Nav(props) {
       <Navbar expand="lg" bg="dark navcustom justify-content-end" sticky="top">
         <NavLink className="nav-link " to="/aboutMe">
           <div class="text-light">
-            <h4 class="nav-title-font">Mathew Calkins</h4>
+            <h4 class="nav-title-font">Mathew Calkins - Coding Portfolio</h4>
           </div>
         </NavLink>
         <ul class="navbar-nav nav justify-content-end ml-auto navitem-indent navcustom">
