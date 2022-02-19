@@ -11,11 +11,11 @@ class Header extends Component {
   render() {
     return (
         <BrowserRouter>
-        <header>
+        <header className="navcustom">
           <Nav />
         </header>
         
-        <div className="content">
+        <div className="content bodycustom">
             <Routes>
           <Route exact path="/" render={() => <Navigate to="/aboutMe" />}/>
           <Route path="/aboutMe" element={<AboutMe />} />

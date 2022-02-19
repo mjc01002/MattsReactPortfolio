@@ -44,6 +44,28 @@ main {
 * {
   box-sizing: border-box;
 }
+.navcustom {
+background: var(--primary);
+}
+
+.bodycustom {
+  background-color: var(--secondary);
+}
+
+.footercustom {
+  background-color: var(--primary);
+}
+.portfolioLine {
+  background-color: black;
+  
+}
+ .formText {
+   color: #fff;
+ }
+
+ .error-text {
+   color: #fff;
+ }
 
 html,
 body {
@@ -71,6 +93,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  color: var(--light);
 }
 
 h1 {
@@ -101,6 +124,8 @@ h6 {
 
 p {
   margin-top: 0;
+  color:#fff;
+  
 }
 
 a {
@@ -113,9 +138,6 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
-  background: var(--dark);
-}
 
 header a {
   color: var(--light);
@@ -130,8 +152,11 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  color:#fff
+  
 }
+
+
 
 button:hover {
   opacity: .8;
@@ -140,16 +165,14 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: .8;
+  background-color: var(--primary);
+  color:#fff
 }
 
 img {
   max-width: 100%;
 }
 
-#avatar {
-  max-height:300px;
-  border-radius: 300px;
-  }
 
 span[role="img"] {
   cursor: default;
@@ -188,8 +211,10 @@ li {
 }
 
 .top-title {
-  font-family: 'Oswald';
+
+  font-family: 'Roboto', sans-serif;
   margin-top: 20px;
+  color: var(--light);
 }
 
 .navitem-indent {
@@ -293,21 +318,22 @@ textarea {
 }
 
 .card {
-  background-color: var(--white);
+  background-color: var(--primary);
   border-radius: 5px;
   height: 400px;
   margin: 2rem;
   position: relative;
   width: 400px;
-  box-shadow: 0 2px 2px var(--cultured), 0 6px 12px var(--cultured);
+  box-shadow: 0 2px 2px var(--primary), 0 6px 12px var(--primary);
 }
 
 .card .img-container {
   height: 75%;
-  overflow: hidden;
+  overflow:hidden;
   text-align: center;
-  border-radius: 10px;
-  background-color: var(--white);
+  border-radius: 0px;
+  margin: 10px;
+  background-color: var(--primary);
 }
 
 .card .img-container img {
@@ -391,7 +417,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -416,3 +442,8 @@ a {
   color: var(--secondary);
 }
 
+.nav-link {
+  flex-direction: row;
+  flex: content;
+  flex-wrap: wrap-reverse;
+}

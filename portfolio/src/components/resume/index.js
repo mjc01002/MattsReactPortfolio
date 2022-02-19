@@ -9,12 +9,10 @@ function Resume() {
       <div>
         <div class="mt-5">
           <h2 className="top-title">Mathew Calkins</h2>
-          <ul>
-            <li>
+          <p>
               Proficent in enterpirse content management, full-stack web
               development, data architecture, and managing integrations.
-            </li>
-          </ul>
+          </p>
 
           <p class="mt-5">
             <a href="https://www.linkedin.com/in/mathew-calkins-pe-78b25555/">
@@ -39,12 +37,10 @@ function Resume() {
       <div class="justify-content-center mt-5">
         <div>
           <h2 className="top-title">Proficiencies</h2>
-          <ul>
-            <li>
+          <p>
             HTML, CSS (Bootstrap, HandleBars), JavaScript, jQuery, React.js, IndexedDB,<br />
             Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs, Templating.
-            </li>
-          </ul>
+          </p>
         </div>
       </div>
     </section>
