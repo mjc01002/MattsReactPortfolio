@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mjc01002.github.io/MattsReactPortfolio/",
+  "homepage": "https://mjc01002.github.io/aboutMe",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build" 
   },
-  
+
   "eslintConfig": {
     "extends": [
       "react-app",
