@@ -7,6 +7,8 @@ import Contact from './components/contact';
 import Resume from './components/resume';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 function App() {
       return (
           <BrowserRouter>
