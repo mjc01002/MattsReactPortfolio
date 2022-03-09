@@ -40,7 +40,7 @@
         "id": 6,
         "name": "Duck Egg Bakery",
         "image": "https://github.com/mjc01002/MattsReactPortfolio/blob/main/src/assets/logo.jpg?raw=true",
-        "github": "https://github.com/mjc01002/mjc-coding-quiz.git",
+        "github": "https://github.com/mjc01002/DuckEggBakery.git",
         "deploy": "https://vast-beyond-68083.herokuapp.com/"
     }
 ]
