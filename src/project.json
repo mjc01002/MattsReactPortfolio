@@ -38,9 +38,9 @@
     },
     {
         "id": 6,
-        "name": "Coding Quiz",
+        "name": "Duck Egg Bakery",
         "image": "https://github.com/mjc01002/mjc-coding-quiz/blob/main/assets/images/quiz%20screen%20shot.PNG?raw=true",
         "github": "https://github.com/mjc01002/mjc-coding-quiz.git",
-        "deploy": "https://mjc01002.github.io/mjc-coding-quiz//"
+        "deploy": "https://vast-beyond-68083.herokuapp.com/"
     }
 ]
